@@ -7,8 +7,7 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #1F2937;
-    padding-left: 300px;
-    padding-right: 300px;
+    padding: 25px 300px;
 }
 
 .header {
@@ -78,7 +77,8 @@ body {
     flex-direction: column;
     padding-left: 300px;
     padding-right: 300px;
-    margin-bottom: 50px;
+    padding-bottom: 25px;
+    padding-top: 25px;
 }
 
 .information-header {
@@ -112,4 +112,24 @@ body {
 .s-text {
     display: flex;
     justify-content: center;
+}
+
+.section-3 {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 300px;
+}
+
+blockquote p {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.quote figcaption {
+    text-align: right;
+    font-size: 20px;
+    font-weight: 900;
 }
